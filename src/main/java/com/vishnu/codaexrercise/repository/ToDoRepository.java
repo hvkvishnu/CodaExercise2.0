@@ -1,0 +1,8 @@
+package com.vishnu.codaexrercise.repository;
+
+import com.vishnu.codaexrercise.entity.ToDo;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ToDoRepository extends JpaRepository<ToDo,Long> {
+
+}
